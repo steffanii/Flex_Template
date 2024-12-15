@@ -1,0 +1,25 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    text-align: center;
+}
+#container {
+    background-color: #003049;
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    border: 5px solid #003049;
+    display: flex;
+    flex-direction:row;        /* column, reverse column, row reverse to push the duv container to the other ebd of the section*/
+    justify-content: center;     /*  it can be center,space-evenly,space-between(space between each element,space-around(space around each element,flex-start or flex-end to move the position of the div element */
+    flex-wrap: wrap;   /* if a set of boxes cant contain the cross section move to the next space*/
+    align-items: baseline    /* it can be flex-end, flex-start, center,baseline */
+}
+/* justify-content-main axis <-> , align items-cross axis |  */
+#container div{
+    width:200px;
+    height: 200px;
+    font-size: 4cm;
+    text-align: start;
+}
